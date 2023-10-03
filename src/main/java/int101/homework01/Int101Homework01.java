@@ -115,7 +115,7 @@ public class Int101Homework01 {
         System.out.println("account owner is " + account2.getOwner());
         System.out.println("balance " + account2.getBalance());
         account1.transfer(3500, account2);
-        System.out.println(account1.toString() + "transfer to " + account2.toString() + "amount 3500");
+        System.out.println(account1.toString() + "transfer to " + account2.toString());
         System.out.println("account owner is " + account1.getOwner());
         System.out.println("balance " + account1.getBalance());
         System.out.println("account owner is " + account2.getOwner());
